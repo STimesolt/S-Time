@@ -1,0 +1,46 @@
+{
+  "name": "s-time",
+  "version": "0.1.0",
+  "description": "Solana Time Resource Trading Protocol",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc",
+    "build:contracts": "anchor build",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "solana",
+    "blockchain",
+    "time",
+    "trading",
+    "defi"
+  ],
+  "author": "S-Time Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/STimesolt/S-Time.git"
+  },
+  "homepage": "https://stimestm.xyz",
+  "dependencies": {
+    "@solana/web3.js": "^1.87.6",
+    "@project-serum/anchor": "^0.26.0",
+    "typescript": "^5.0.0",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.0",
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
+    "eslint": "^8.37.0",
+    "jest": "^29.5.0",
+    "prettier": "^2.8.7",
+    "ts-jest": "^29.1.0",
+    "ts-node": "^10.9.1"
+  }
+} 
